@@ -1,0 +1,21 @@
+package com.javaproject;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class break {
+
+    public static void main(String[] args) {
+
+        while(true){
+            System.out.println("Input: ");
+            input = scanner.next().toLowerCase(Locale.ROOT);
+            if (input.equals("pass"))
+                continue;
+            if (input.equals("quit"))
+                break;
+            System.out.println(input);
+
+        }
+    }
+}
